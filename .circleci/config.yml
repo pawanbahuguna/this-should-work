@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
-      - run: echo "hi"
+      - run: echo "hello"
   test:
     docker:
       - image: cimg/base:stable
